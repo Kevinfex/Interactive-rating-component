@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Interactive rating component</title>
+
+  <!-- Typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- My styles -->
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+  <main class="main">
+    <div class="card">
+      <!-- Rating state start -->
+      <div class="card__rating">
+        <div class="card__star">
+          <img class="card__icon" src="img/icon-star.svg" alt="Icon star">
+        </div>
+        <h1 class="card__heading">
+          How did we do?
+        </h1>
+        <p class="card__text">
+          Please let us know how we did with your support request. All feedback is appreciated
+          to help us improve our offering!
+        </p>
+        <div class="card__list">
+          <div class="card__item">
+            <input type="radio" name="rating" id="uno">
+            <label class="card__label" for="uno">1</label>
+          </div>
+          <div class="card__item">
+            <input type="radio" name="rating" id="dos">
+            <label class="card__label" for="dos">2</label>
+          </div>
+          <div class="card__item">
+            <input type="radio" name="rating" id="tres">
+            <label class="card__label" for="tres">3</label>
+          </div>
+          <div class="card__item">
+            <input type="radio" name="rating" id="cuatro">
+            <label class="card__label" for="cuatro">4</label>
+          </div>
+          <div class="card__item">
+            <input type="radio" name="rating" id="cinco">
+            <label class="card__label" for="cinco">5</label>
+          </div>
+        </div>
+        <button id="btnSubmit" disabled class="card__button">Submit</button>
+      </div>
+      <!-- Rating state end -->
+
+      <!-- Thank you state start -->
+      <div class="thanks">
+        <div class="thanks__img">
+          <img class="thanks__icon" src="img/illustration-thank-you.svg" alt="Thank you icon">
+        </div>
+        <p class="thanks__selected">You selected <span class="thanks__rating">5</span> out of 5</p>
+        <h1 class="thanks__heading">Thank you!</h1>
+        <p class="thanks__text">We appreciate you taking the time to give a rating. If you ever need more support,
+          don’t hesitate to get in touch!</p>
+      </div>
+      <!-- Thank you state end -->
+    </div>
+  </main>
+
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://www.frontendmentor.io/profile/Kevinfex" target="_blank">Kevin Espinoza Poma</a>.
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
