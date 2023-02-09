@@ -6,7 +6,6 @@ Me costo un poco de tiempo pero nada imposible de hacerlo, está construido con 
 ## Demo 🚀
 
 [View Demo](https://int-rating-kep.netlify.app/)
-<a href="https://int-rating-kep.netlify.app/" target="_blank">Ver Demo</a>
 
 ## Tecnologías 🔧
 
