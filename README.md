@@ -9,9 +9,9 @@ Me costo un poco de tiempo pero nada imposible de hacerlo, está construido con 
 
 ## Tecnologías 🔧
 
-- ![HTML](img/html-5.svg "Icon HTML")
-- ![CSS](img/css-3.svg "Icon css")
-- ![JS](img/javascript.svg "Icon js")
+- ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+- ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+- ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
 ## Contactos 📧
 
